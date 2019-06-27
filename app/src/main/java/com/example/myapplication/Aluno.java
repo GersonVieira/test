@@ -1,10 +1,14 @@
 package com.example.myapplication;
 
 
+import android.widget.Button;
+
 public class Aluno {
     private String nome;
     private String cidade;
     private static int pontuacao;
+    private int cont;
+
     public Aluno(){
 
     }
