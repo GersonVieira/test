@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Gravador {
+    //"comentario"
     public void gravarArquivo(String nomeArquivo, String texto, Context ctx){
         try{
             FileOutputStream arquivo=ctx.openFileOutput(nomeArquivo,Context.MODE_PRIVATE);
